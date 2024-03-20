@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background-color: #F0EFE2;
+  color: #777;
+}
+
+p {
+  padding: 0 0 20px 0;
+}
+
+a, a:hover {
+  outline: none;
+  color: #14CECC;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font: normal 175% 'century gothic', arial, sans-serif;
+  color: #43423F;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+}
+
+h2 {
+  font: normal 175% 'century gothic', arial, sans-serif;
+  color: #A4AA04;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+}
+
+h3 {
+  font: normal 155% 'century gothic', arial, sans-serif;
+  color: #43423F;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;
+}
+
+h4 {
+  font: normal 120% arial, sans-serif;
+  color: #43423F;
+  padding: 0 0 5px 0;
+}
+
+ul {
+  margin: 2px 0 22px 17px;
+}
+
+ul li {
+  list-style-type: circle;
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 5px;
+}
+
+.header #logo, .header #menubar, .main {
+  width: 875px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #404040;
+  width: 100%;
+  height: 210px;
+}
+
+.header #logo {
+  position: relative;
+  height: 140px;
+}
+
+#logo h1, #logo h2 {
+  font-family: 'century gothic', arial, sans-serif;
+}
+
+#logo #logo_text {
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+#logo_text h1, #logo_text h1 a, #logo_text h1 a:hover {
+  font-size: 300%;
+  margin: 0;
+  color: #999;
+  text-decoration: none;
+}
+
+#logo_text h2 {
+  font-size: 100%;
+  padding: 4px 0 0 0;
+  color: #CDC090;
+}
+
+.header #menubar {
+  position: relative;
+  height: 69px;
+  border-top: 1px solid #6A6A6A;
+  border-left: 1px solid #6A6A6A;
+  border-right: 1px solid #6A6A6A;
+  background: #555 url(../img/menu.png) repeat-x;
+}
+
+#menubar #menu {
+  float: left;
+  height: 100%;
+  margin: 0;
+}
+
+ul#menu li {
+  float: left;
+  padding: 0;
+  list-style: none;
+}
+
+ul#menu li a {
+  letter-spacing: 0.1em;
+  font: normal 100% 'trebuchet ms', arial;
+  display: block;
+  float: left;
+  height: 37px;
+  padding: 27px 22px 4px 22px;
+  text-align: center;
+  color: #CDC090;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-right: 1px solid #6A6A6A;
+  background: transparent;
+}
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover {
+  color: #FFF;
+}
+
+.main {
+  position: relative;
+  display: table;
+  background-color: #FFF;
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  padding-top: 10px;
+  line-height: 1.5em;
+}
+
+.main #content, .main #right {
+  padding: 17px;
+}
+
+.main #content {
+  text-align: left;
+}
+
+#content ul {
+  margin: 2px 0 22px 0px;
+}
+
+#content ul li {
+  list-style-type: none;
+  background: url(../img/bullet.png) no-repeat;
+  margin: 0 0 6px 0;
+  padding: 0 0 4px 15px;
+  line-height: 1.5em;
+}
+
+.main #right {
+  float: right;
+  width: 190px;
+  border-left: 1px dashed #CCC;
+  margin-left: 17px;
+}
+
+#right ul {
+  width: 178px;
+  padding: 4px 0 0 0;
+  margin: 4px 0 30px 0;
+}
+
+#right li {
+  list-style: none;
+  padding: 0 0 7px 0;
+}
+
+#right li a, #right li a:hover {
+  padding: 0 0 0 25px;
+  display: block;
+  background: transparent url(../img/link.png) no-repeat left center;
+}
+
+.main #footer {
+  clear: both;
+  float: left;
+  width: 100%;
+  font: normal 100% "lucida sans unicode";
+  height: 33px;
+  margin-top: 12px;
+  padding: 22px 0 7px 0;
+  text-align: center;
+  background: #555 url(../img/menu.png) repeat-x;
+  color: #CDC090;
+  text-transform: uppercase;
+}
+
+#footer a, #footer a:hover {
+  text-decoration: none;
+}
+
+#footer a {
+  color: #FFF;
+}
+
+#footer a:hover {
+  color: #CDC090;
+}
+
+div.debug {
+  margin: 10px auto;
+  padding-bottom: 10px;
+  text-align: center;
+}
